@@ -44,6 +44,28 @@
 
 
 (def mines {
+
+
+  :phytomine
+   { :id                           :phytomine
+    :service                      {:root "phytozome.jgi.doe.gov/phytomine/" :token nil}
+    :name                         "PhytoMine"
+    :common                       "JGI Plants"
+    :abbrev                       "JGI"
+    :icon                         "icon-phytozome"
+    :default-object-types         [:Gene :Protein]
+    :default-selected-object-type :Gene
+    :default-organism             "P. trichocarpa"
+    ;; What to populates the list upload / id resolver with when user clicks
+    ;; [Show me an example]. Make sure IDs are consistent with the
+    ;; selected-object-type and default organism.
+    :idresolver-example           {:Gene    "CG9151, FBgn0000099, CG3629, TfIIB, Mad, CG1775, CG2262, TWIST_DROME, tinman, runt, E2f, CG8817, FBgn0010433, CG9786, CG1034, ftz, FBgn0024250, FBgn0001251, tll, CG1374, CG33473, ato, so, CG16738, tramtrack,  CG2328, gt"
+                                   :Protein "Q8T3M3,FBpp0081318,FTZ_DROME"}
+    ;;What to populate in regionsearch when user clicks [Show me an example].
+    ;;This is optional if your mine doesn't have region search. If you don't include
+    ;;it, the regionsearch tab won't show.
+    }
+
             ; :humanmine     {:id                 :humanmine
             ;                   :service            {:root "www.humanmine.org/humanmine" :token nil}
             ;                   :name               "HumanMine"
