@@ -1,4 +1,4 @@
-(def props {:version "0.4.0-alpha"})
+(def props {:version "0.4.3-alpha"})
 
 
 (defproject redgenes (:version props)
@@ -176,4 +176,5 @@
                   {:url    "https://clojars.org/repo"
                    ;; How often should this repository be checked for
                    ;; snapshot updates? (:daily, :always, or :never)
-                   :update :always}]])
+                   ;:update :always
+                   }]])
