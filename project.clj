@@ -50,8 +50,8 @@
 
 
   :aliases {"foreign" ["do"
-                       ["shell" "curl" "-o" "resources/public/vendor/imtables.js" "http://cdn.intermine.org/js/intermine/im-tables/2.0.0/imtables.min.js"]
-                       ["shell" "curl" "-o" "resources/public/vendor/im.min.js" "http://cdn.intermine.org/js/intermine/imjs/3.15.0/im.min.js"]]}
+                       ["shell" "curl" "-o" "resources/public/vendor/imtables.js" "/intermine/cdn/js/intermine/im-tables/2.0.0/imtables.min.js"]
+                       ["shell" "curl" "-o" "resources/public/vendor/im.min.js" "/intermine/cdn/js/intermine/imjs/3.15.0/im.min.js"]]}
 
 
   :min-lein-version "2.5.3"

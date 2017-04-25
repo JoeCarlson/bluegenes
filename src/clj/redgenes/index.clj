@@ -19,15 +19,15 @@
     (include-css
       "https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.2.0/gridlex.min.css")
     (include-css
-      "http://cdn.intermine.org/js/intermine/im-tables/2.0.0/main.sandboxed.css")
+      "/intermine/cdn/js/intermine/im-tables/2.0.0/main.sandboxed.css")
     (include-css "css/site.css")
     [:meta {:charset "utf-8"}]
     [:meta {:content "width=device-width, initial-scale=1", :name "viewport"}]
     [:link {:rel "shortcut icon" :href "https://cdn.rawgit.com/intermine/design-materials/f5f00be4/logos/intermine/fav32x32.png" :type "image/png"}]
     #_[:script {:src
-      "http://cdn.intermine.org/js/intermine/im-tables/2.0.0/imtables.min.js"}]
+      "/intermine/cdn/js/intermine/im-tables/2.0.0/imtables.min.js"}]
     [:script {:src
-      "http://cdn.intermine.org/js/intermine/imjs/3.15.0/im.min.js"}]
+      "/intermine/cdn/js/intermine/imjs/3.15.0/im.min.js"}]
     [:script
      {:crossorigin "anonymous",
       :integrity "sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=",
