@@ -53,7 +53,7 @@
 (def mines {
   :phytomine
    { :id                           :phytomine
-    :service                      {:root "https://phytozome-dev.jgi.doe.gov/phytomine/" :token nil}
+    :service                      {:root "https://phytozome.jgi.doe.gov/phytomine/" :token nil}
     :name                         "PhytoMine"
     :common                       "JGI Plants"
     :abbrev                       "JGI"
